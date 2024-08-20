@@ -12,6 +12,7 @@ mydb = mysql.connector.connect(
 )
 
 
+
 #### Python MySQL Create Table ####
 cursor = mydb.cursor()
 createatable = '''
@@ -90,3 +91,6 @@ def home():
         json.dump(data, json_file, indent=4)
 
     return jsonify(data)
+
+def test():
+    print('testing')
