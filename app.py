@@ -94,3 +94,6 @@ def home():
 
 def test():
     print('testing')
+
+def test2():
+    print('testing2')
